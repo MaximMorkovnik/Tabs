@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>TABS</h1>
+    <div class="tabs-block-wrapper">
+        <div id="tabs">
+            <div class="tab-btn active" data-btn="1">NAME</div>
+            <div class="tab-btn" data-btn="2">CHARACTERISTIC</div>
+            <div class="tab-btn" data-btn="3">PAYMENT AND DELIVERY</div>
+        </div>
+        <div id="contents">
+            <div class="content active" data-content="1">Content 1</div>
+            <div class="content" data-content="2">Content 2</div>
+            <div class="content" data-content="3">
+                <div class="tabs3-block-wrapper">
+                    <div id="tabs3">
+                        <div class="tab-btn3 active" data-btn3="4">PAYMENT</div>
+                        <div class="tab-btn3" data-btn3="5">DELIVERY</div>
+                    </div>
+                    <div id="contents3">
+                        <div class="content3 active" data-content3="4">Content 4</div>
+                        <div class="content3" data-content3="5">Content 5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-[**<h3>Tabs --><h3>**](https://maximmorkovnik.github.io/Tabs/)
+<https://maximmorkovnik.github.io/Tabs/>
   
 <h1>Tabs</h1>
 
